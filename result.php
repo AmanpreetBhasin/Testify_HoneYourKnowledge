@@ -61,7 +61,9 @@ if(isset($_SESSION['logged_in'])&&($_SERVER['REQUEST_METHOD'] == 'POST'))
 		$_SESSION['test-submit']=0;
 	}
 	echo "</div>";
-    echo "<div class='inner sub'><h2><span>Final Score : &nbsp;</span>"." $score"."&nbsp; out of&nbsp;".$i."</div>";
+    echo "<div class='inner sub'><h2><span>Final Score : &nbsp;</span>"." $score"."&nbsp; out of&nbsp;".$i."</h2>";
+	echo "<button style=margin-bottom:2em><a href='index.php'>Return to Home</a></button>";
+	echo "</div>";
   }
   else
     header('location:index.php');  

@@ -3112,7 +3112,7 @@
     float: right;
 }
 
-#login .inner .after-form a
+.inner a
 {
     text-decoration: none;
     color: white;

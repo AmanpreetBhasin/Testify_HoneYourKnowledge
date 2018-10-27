@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 4.8.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 07, 2018 at 08:22 AM
--- Server version: 10.1.25-MariaDB
--- PHP Version: 5.6.31
+-- Generation Time: Oct 27, 2018 at 08:59 AM
+-- Server version: 10.1.32-MariaDB
+-- PHP Version: 5.6.36
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -86,7 +86,26 @@ INSERT INTO `question` (`S_NO`, `Name`, `option1`, `option2`, `option3`, `option
 (17, 'A table that displays data redundancies yields ____________ anomalies', 'Insertion', 'Deletion', 'Update', 'All of the above', 'option4', 'DBMS'),
 (18, 'A lock that allows concurrent transactions to access different rows of the same table is known as a', 'Field-level lock', 'Row-level lock', 'Table-level lock', 'Database-level lock', 'option1', 'DBMS'),
 (19, 'A type of query that is placed within a WHERE or HAVING clause of another query is called', 'Super query', 'Sub query', 'Master query', 'Multi-query', 'option2', 'DBMS'),
-(20, 'A transaction completes its execution is said to be', 'Saved', 'Loaded', 'Rolled', 'Committed', 'option4', 'DBMS');
+(20, 'A transaction completes its execution is said to be', 'Saved', 'Loaded', 'Rolled', 'Committed', 'option4', 'DBMS'),
+(21, 'A relational database consists of a collection of ?', 'Tables', 'Fields', 'Records', 'Keys', 'option1', 'DBMS'),
+(22, ' A ________ in a table represents a relationship among a set of values.', 'Column', 'Key', 'Row', 'Entry', 'option3', 'DBMS'),
+(23, '56% of Y is 182. What is Y?', '350', '364', '325', '330', 'option3', 'QUANTATIVE APTITUDE'),
+(24, 'Y has to score 40% marks to pass. He gets 20 marks and fails by 40 marks. The maximum marks of the exam are?', '100', '200', '150', '250', 'option3', 'QUANTATIVE APTITUDE'),
+(25, 'Which of the following two ratios is greater 17:18 and 10:11?', '17/18', '10/11', 'Both are same', 'Cannot Determine', 'option1', 'QUANTATIVE APTITUDE'),
+(26, '285 is summation of 3 numbers. Ratio between 2nd and 3rd numbers is 6:5. Ratio between 1st and 2nd numbers is 3:7. The 3rd number is?', '135', '120', '124', '105', 'option4', 'QUANTATIVE APTITUDE'),
+(27, 'A man got Rs. 130 less, as simple interest, when he invested Rs. 2000 for 4 years as compared to investing Rs. 2250 for same duration. What is the rate of interest?', '12%', '13%', '12.5%', '10.5%', 'option2', 'QUANTATIVE APTITUDE'),
+(28, 'In 3 years by compound interest, a sum becomes Rs. 900. But in 4 years by compound interest, the same sum becomes Rs. 1000. What is the sum and the rate of interest?', 'Rs. 625.20, 12.50%', 'Rs. 656.10, 11.11%', 'Rs. 686.50, 12.50%', 'Rs. 695.80, 11.11%', 'option2', 'QUANTATIVE APTITUDE'),
+(29, 'A walks from points Jammu to Delhi and at the same time B starts walking from Delhi to Jammu. After passing each other, they complete their journeys in 361 hours and 289 hours, respectively. Find the ratio of speed of A to that of B?', '17:19 ', '289:361', '361:289', '19:17', 'option1', 'QUANTATIVE APTITUDE'),
+(30, 'Amit covers a distance at a speed of 24 km/hr in 6 min. If he wants to cover the same distance in 8 min, what should be his speed?', '18 km/hr', '20 km/hr', '21 km/hr', '15 km/hr', 'option1', 'QUANTATIVE APTITUDE'),
+(31, 'Ram is three times as old as his Sam. 2 years ago he was five times as old as Sam. What is the present age of Ram?', '14 years', '12 years', '18 years', '24 years', 'option2', 'QUANTATIVE APTITUDE'),
+(32, 'The average age of a group of 4 friends is 36 years. The youngest friend amongst them is 6 years old. What was the average age of the group at the time of the birth of the youngest friend?', '36 years', '38 years', '42 years ', '40 years', 'option4', 'QUANTATIVE APTITUDE'),
+(33, 'If 12 men or 16 women can do a work in 172 days, how long will 21 men and 15 women to do the same work?', '60 days', '64 days', '56 days', '72 days', 'option2', 'QUANTATIVE APTITUDE'),
+(34, 'Two pipes M and N can fill a tank in 22 hours and 33 hours respectively. In how much time will the tank be full, if both the pipes are opened simultaneously?', '18 hours', '19/22 hours', '1(1/11) hours', '13(1/5) hours', 'option4', 'QUANTATIVE APTITUDE'),
+(35, ' 3 pipes have diameters 2 cms, 3 cms and 4 cms. The ratio of water flowing through them is equal to ratio of the square of their diameters. The biggest pipe when open alone, can fill the entire pool in just 126 minutes. When all the pipes are opened together, the pool would be filled in how much time?', '2016/29 minutes', '2111/126 minutes', '215/63 minutes', '155 minutes', 'option1', 'QUANTATIVE APTITUDE'),
+(36, 'Two trains A and B leave Kolkata for Sikkim at 8:00 pm and 8:30 pm respectively and run at 90 km/hr and 120 km/hr, respectively. At what distance from Kolkata, will the two trains meet?', '450 kms', '150 kms', '180 kms', '360 kms', 'option3', 'QUANTATIVE APTITUDE'),
+(37, 'Simran takes twice as long to swim up as to swim down the river and has a speed of 12 km/hr in still water. What is riverâ€™s speed?', '6 km/hr', '3 km/hr', '8 km/hr', '4 km/hr', 'option4', 'QUANTATIVE APTITUDE'),
+(38, 'Find average of natural numbers from 1 to 65?', '33', '32.5', '33.5', '65', 'option1', 'QUANTATIVE APTITUDE'),
+(39, 'In a race, average speed of total 75 bikes is 35km/hr. The average speed of red bikes is 55 km/hr. If average speed of green bikes is 30km/hr, then how many green bikes are there?', '70', '60', '45', '50', 'option2', 'QUANTATIVE APTITUDE');
 
 -- --------------------------------------------------------
 
@@ -101,16 +120,20 @@ CREATE TABLE `users` (
   `Email` varchar(500) DEFAULT NULL,
   `Password` varchar(10000) DEFAULT NULL,
   `random_string` mediumtext,
-  `rd` mediumtext
+  `subject` varchar(2000) DEFAULT NULL,
+  `date` varchar(2000) DEFAULT NULL,
+  `om` varchar(2000) DEFAULT NULL,
+  `mm` varchar(2000) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`S_NO`, `Name`, `Username`, `Email`, `Password`, `random_string`, `rd`) VALUES
-(1, 'Jaskaran Singh', 'realkaran', 'jkssingh1997@gmail.com', 'Richie97@', 'NULL', NULL),
-(3, 'Jaskaran Singh', 'lovejas', 'jkssachdeva43@gmail.com', 'Richie97@', NULL, NULL);
+INSERT INTO `users` (`S_NO`, `Name`, `Username`, `Email`, `Password`, `random_string`, `subject`, `date`, `om`, `mm`) VALUES
+(1, 'Jaskaran Singh', 'realkaran', 'jkssingh1997@gmail.com', 'Richie97@', NULL, 'QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#', '27/10/2018 - 02:03:15#27/10/2018 - 02:21:02#27/10/2018 - 02:21:40#', '6#4#5#', '10#5#5#'),
+(3, 'Jaskaran Singh', 'lovejas', 'jkssachdeva43@gmail.com', 'Richie97@', NULL, NULL, NULL, NULL, NULL),
+(5, 'Amanpreet Singh Bhasin', 'amanpreetbhasin', 'apsbhasin@gmail.com', 'Aman@8855', '', 'DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#', '26/10/2018 - 01:42:43#26/10/2018 - 01:22:34#26/10/2018 - 11:25:03#26/10/2018 - 14:42:19#26/10/2018 - 14:44:13#26/10/2018 - 14:46:15#26/10/2018 - 14:47:35#26/10/2018 - 17:05:51#26/10/2018 - 17:07:27#26/10/2018 - 17:08:02#27/10/2018 - 02:17:53#27/10/2018 - 02:18:43#27/10/2018 - 02:19:45#27/10/2018 - 11:37:28#', '2#3#3#1#4#0#5#1#0#1#4#2#5#6#', '5#5#5#5#5#5#5#5#5#5#5#5#10#10#');
 
 --
 -- Indexes for dumped tables
@@ -147,16 +170,19 @@ ALTER TABLE `users`
 --
 ALTER TABLE `admin`
   MODIFY `S_NO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `question`
 --
 ALTER TABLE `question`
-  MODIFY `S_NO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `S_NO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `S_NO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;COMMIT;
+  MODIFY `S_NO` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

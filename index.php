@@ -13,7 +13,7 @@ session_start();
 					<h1>Testify</h1>
 					<h2>Hone your knowledge and prepare well for your exams</h2>
 					<ul class="actions">
-						<li><a href="#one" class="button scrolly">Get Started</a></li>
+						<li><a href="login.php" class="button scrolly">Get Started</a></li>
 					</ul>
 				</div>
 			</section>

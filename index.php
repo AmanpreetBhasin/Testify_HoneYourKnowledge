@@ -227,6 +227,7 @@ session_start();
     			var x=document.querySelector('#choose1').value;
 				var y='<?php echo $_SESSION['username'];?>';
 				var count=0;
+				var a=0;
 				obj = { "table":"users","y":y};
     			dbParam = JSON.stringify(obj);
     			xmlhttp = new XMLHttpRequest();
@@ -252,9 +253,21 @@ session_start();
 							{			
 								if (sub[i]==x) 
 								{
+									count=count+1;
+								}
+							}
+							if(count>10)
+								{
+									a=count-10;
+								}
+							count=0;
+							for (var i = a; i <sub.length; i++) 
+							{			
+								if (sub[i]==x) 
+								{
 									per.push((om[i]/mm[i])*100)
 									date1.push(date[i].slice(0,10));
-									count=count+1
+									count=count+1;
 								}
 							}
 							if(count>0)

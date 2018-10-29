@@ -190,12 +190,12 @@ session_start();
 							om=om.split("#");
 							mm=de[0].mm;
 							mm=mm.split("#");
-							newcontent='<tr><th>Date</th><th>Subject</th><th>Marks Secured</th><th>Maximum Marks</th></tr>'
+							newcontent='<tr><th>S.No.</th><th>Date</th><th>Subject</th><th>Marks Secured</th><th>Maximum Marks</th></tr>'
 							for(i=0;i<sub.length;i++)
 							{
 								if(sub[i]==x)
 								{
-									newcontent +='<tr><td>'+date[i]+'</td><td>'+sub[i]+'</td><td>'+om[i]+'</td><td> '+mm[i]+'</tr>';
+									newcontent +='<tr><td>'+(count+1)+'</td><td>'+date[i]+'</td><td>'+sub[i]+'</td><td>'+om[i]+'</td><td> '+mm[i]+'</tr>';
 									count=count+1;
 								}
 							}

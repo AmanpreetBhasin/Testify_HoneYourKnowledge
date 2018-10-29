@@ -40,4 +40,36 @@ function check()
 		}
 		return false;
 	}
+a=document.getElementsByClassName("resetradio");
+for(var j=0;j<a.length;j++)
+			{
+				a[j].addEventListener("click",function(e){e.preventDefault();return false;});
+			}
+function checkradio(e,f)
+{
+	var i=document.getElementsByName(e)
+		for(var j=0;j<i.length-1;j++)
+			{
+				if(i[j].checked==true)
+					{
+						document.getElementById(e).style.backgroundColor="#f6755e";
+					}
+			}
+
+}
+function resetradio(e)
+{
+	console.log(e)
+	console.log(e.length)
+	e=e.substr(0,(e.length-5))
+	console.log(e);
+	a=document.getElementsByName(e);
+	for(var j=0;j<a.length-1;j++)
+			{
+						document.getElementById(e).style.backgroundColor="darkgray";
+						a[j].checked=false;
+						a[a.length-1].checked=true;
+			}
+	
+}
 

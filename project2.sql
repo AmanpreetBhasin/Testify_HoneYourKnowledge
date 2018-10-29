@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 27, 2018 at 08:59 AM
+-- Generation Time: Oct 29, 2018 at 10:11 AM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 5.6.36
 
@@ -132,8 +132,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`S_NO`, `Name`, `Username`, `Email`, `Password`, `random_string`, `subject`, `date`, `om`, `mm`) VALUES
 (1, 'Jaskaran Singh', 'realkaran', 'jkssingh1997@gmail.com', 'Richie97@', NULL, 'QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#', '27/10/2018 - 02:03:15#27/10/2018 - 02:21:02#27/10/2018 - 02:21:40#', '6#4#5#', '10#5#5#'),
-(3, 'Jaskaran Singh', 'lovejas', 'jkssachdeva43@gmail.com', 'Richie97@', NULL, NULL, NULL, NULL, NULL),
-(5, 'Amanpreet Singh Bhasin', 'amanpreetbhasin', 'apsbhasin@gmail.com', 'Aman@8855', '', 'DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#', '26/10/2018 - 01:42:43#26/10/2018 - 01:22:34#26/10/2018 - 11:25:03#26/10/2018 - 14:42:19#26/10/2018 - 14:44:13#26/10/2018 - 14:46:15#26/10/2018 - 14:47:35#26/10/2018 - 17:05:51#26/10/2018 - 17:07:27#26/10/2018 - 17:08:02#27/10/2018 - 02:17:53#27/10/2018 - 02:18:43#27/10/2018 - 02:19:45#27/10/2018 - 11:37:28#', '2#3#3#1#4#0#5#1#0#1#4#2#5#6#', '5#5#5#5#5#5#5#5#5#5#5#5#10#10#');
+(3, 'Jaskaran Singh', 'lovejas', 'jkssachdeva43@gmail.com', 'Richie97@', NULL, 'DBMS#DBMS#', '29/10/2018 - 14:38:58#29/10/2018 - 14:39:48#', '7#3#', '10#5#'),
+(5, 'Amanpreet Singh Bhasin', 'amanpreetbhasin', 'apsbhasin@gmail.com', 'Aman@8855', '', 'DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#DBMS#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#QUANTATIVE APTITUDE#DBMS#QUANTATIVE APTITUDE#DBMS#DBMS#QUANTATIVE APTITUDE#', '26/10/2018 - 01:42:43#26/10/2018 - 01:22:34#26/10/2018 - 11:25:03#26/10/2018 - 14:42:19#26/10/2018 - 14:44:13#26/10/2018 - 14:46:15#26/10/2018 - 14:47:35#26/10/2018 - 17:05:51#26/10/2018 - 17:07:27#26/10/2018 - 17:08:02#27/10/2018 - 02:17:53#27/10/2018 - 02:18:43#27/10/2018 - 02:19:45#27/10/2018 - 11:37:28#27/10/2018 - 13:16:34#27/10/2018 - 16:58:38#27/10/2018 - 17:20:13#27/10/2018 - 17:22:44#28/10/2018 - 15:39:30#28/10/2018 - 17:11:17#29/10/2018 - 11:26:19#', '2#3#3#1#4#0#5#1#0#1#4#2#5#6#3#4#9#7#0#3#7#', '5#5#5#5#5#5#5#5#5#5#5#5#10#10#5#10#10#10#10#5#10#');
 
 --
 -- Indexes for dumped tables

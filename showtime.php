@@ -29,6 +29,7 @@ $_SESSION['test-submit']=1;
 		
 		echo "</div>";
 		echo "<div class='panel'>";
+		echo "<h3 id='ttime' style='margin-bottom:0.5em'></h3>";
 		echo "<h3>Time Remaining :&nbsp;<span style='font-size:1.7em' id='time'></span></h3>";
 		echo "<ul>";
 		mysqli_data_seek($r,0);
@@ -82,6 +83,7 @@ $_SESSION['test-submit']=1;
 				window.onload=hello;
 				function hello(){
 				var time=<?php echo $no ?>;
+				document.getElementById('ttime').innerHTML ="Total time :&nbsp;"+time + ":00";
 				document.getElementById('time').innerHTML = time + ":00";
 				startTimer();
 

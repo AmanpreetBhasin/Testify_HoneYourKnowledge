@@ -29,16 +29,17 @@ $_SESSION['test-submit']=1;
 		
 		echo "</div>";
 		echo "<div class='panel'>";
+		echo "<h3>Time Remaining :&nbsp;<span style='font-size:1.7em' id='time'></span></h3>";
 		echo "<ul>";
 		mysqli_data_seek($r,0);
 		$i=1;
 		while($qs=mysqli_fetch_assoc($r))
 			{
-		echo "<li id='".$qs["S_No"]."'>$i</li>";
-			$i++;
-		}
+				echo "<li id='".$qs["S_No"]."'>$i</li>";
+				$i++;
+			}
 		echo "</ul>";
-			echo "<div ><h3><div style=background-color:#f6755e;width:25px;height:25px;display:inline-block;vertical-align:top></div>&nbsp;&nbsp;: Attempted</h3></div>";
+		echo "<div ><h3><div style=background-color:#f6755e;width:25px;height:25px;display:inline-block;vertical-align:top></div>&nbsp;&nbsp;: Attempted</h3></div>";
 		echo"<div><h3><span style='background-color:darkgray;width:25px;height:25px;display:inline-block;vertical-align:top'></span>&nbsp;&nbsp;: Unanswered</h3></div>";
 		}
 		echo "</div>";
@@ -72,6 +73,43 @@ $_SESSION['test-submit']=1;
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
+
+<script>
+				window.onload=hello;
+				function hello(){
+				var time=<?php echo $no ?>;
+				document.getElementById('time').innerHTML = time + ":00";
+				startTimer();
+
+				function startTimer() {
+				  var presentTime = document.getElementById('time').innerHTML;
+					console.log(presentTime)
+				  var timeArray = presentTime.split(/[:]+/);
+				  var m = timeArray[0];
+				  var s = checkSecond((timeArray[1] - 1));
+				  if(s==59){m=m-1}
+				  //if(m<0){alert('timer completed')}
+
+				  document.getElementById('time').innerHTML =
+					m + ":" + s;
+					if(m==0 && s==0)
+						{
+							alert("Your time is over, all answers are saved and your test will be submitted");
+							document.getElementById("form").submit();
+						}
+				  setTimeout(startTimer, 1000);
+				}
+
+				function checkSecond(sec) {
+				  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+				  if (sec < 0) {sec = "59"};
+				  return sec;
+				}
+				};
+			</script>
+
+

@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Intensify by TEMPLATED</title>
+		<title>Testify - Online Examination Portal</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -80,13 +80,13 @@
 				<div class="inner">
 					<h2>Get In Touch</h2>
 					<ul class="actions">
-						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">information@untitled.tld</a></li>
-						<li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>
+						<li><span class="icon fa-phone"></span> <a href="#">(+91)9599134336</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">amanpreetsingh8855@gmail.com</a></li>
+						<li><span class="icon fa-map-marker"></span>New Delhi, Delhi</li>
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+					&copy; AmanpreetBhasin Design
 				</div>
 			</footer>
 
